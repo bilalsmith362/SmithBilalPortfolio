@@ -26,5 +26,14 @@ module.exports = {
     },
     "gatsby-plugin-image",
     "gatsby-plugin-sharp",
+    {resolve: `gatsby-plugin-google-fonts`,
+        options: {
+          fonts: [
+            `Cinzel Decorative`,
+            `PT Serif` // you can also specify font weights and styles
+          ],
+          display: 'swap'
+        }
+      }
   ],
 }

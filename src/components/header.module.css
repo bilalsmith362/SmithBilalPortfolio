@@ -1,0 +1,70 @@
+header {
+    height: 100vh;
+    border-bottom: 1px solid black;
+    line-height: 1.4283;
+    position: relative;
+    background-image: url("../images/splash.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.hero-content {
+    position: absolute;
+    top: 35%;
+    margin: 0%;
+    width: 42%;
+    right: 20%;
+    border: 1px solid rgb(26, 24, 27);
+    text-align: center;
+    padding: 1em;
+    background-color: rgba(26, 24, 27, .10);
+}
+.site-title{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.site-title a, .site-title a:hover, .site-title a:visited {
+    text-color: rgb(255, 255, 255);
+}
+.site-description{
+    font-weight: normal;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: .8em;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+header button{
+    padding-top: .25em;
+    padding-bottom: .25em;
+    padding-left: .35em;
+    padding-right: .35em;
+    margin-top: 1em;
+}
+.nav-container {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgb(26, 24, 27);
+}
+.nav-container ul {
+    margin: 0%;
+    display: flex;
+    flex-flow: wrap;
+    justify-content: center;
+    padding: 0%;
+    list-style: none;
+    
+}
+.nav-container li {
+    background: none;
+    letter-spacing: .075em;
+    text-decoration: none;
+    padding: 7px 14px 7px 14px;
+
+}
+.nav-container a, .nav-containera:visited {
+    color: rgb(253, 255, 252);
+}
+.hero-body {
+    color:rgb(253, 255, 252);
+}

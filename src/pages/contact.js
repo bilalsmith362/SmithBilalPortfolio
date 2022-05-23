@@ -1,6 +1,7 @@
 // Step 1: Import React
 import * as React from "react"
 import { Link } from 'gatsby'
+import { navigate } from 'gatsby'
 
 // Step 2: Define your component
 const ContactPage = () => {
